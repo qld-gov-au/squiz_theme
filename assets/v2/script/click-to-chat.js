@@ -1,0 +1,2 @@
+/*! SWE 2.12.1 turkey-sunset 20171010T0901 */
+!function(a){"use strict";var b=!0,c=a(".form","#content").add(".form","#content-container .article").eq(0);0===c.length&&(c=a(".article > .box-sizing > .border > :last-child","#content-container")),c.after('<div class="click-to-chat"><div id="zldbtnframe"></div></div>'),a("form").on("x-invalid",function(){b?b=!1:0===a(this).prev(".click-to-chat").length&&a(".click-to-chat").clone().addClass("status info").insertBefore(this)})}(jQuery);var $zoho=$zoho||{livedesk:{values:{},ready:function(){}}};

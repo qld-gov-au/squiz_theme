@@ -1,0 +1,2 @@
+/*! SWE 2.12.1 turkey-sunset 20171010T0901 */
+!function(a){"use strict";a("#qg-bond-loan-calculator").submit(function(b){b.preventDefault();var c=1121,d=a("#income").val(),e=function(a){return"$"+parseFloat(a).toFixed(2)};if(a(this).find(".info").remove(),c>=d&&d.match(/^\d*[0-9]\d*$/g)){var f=.6*d,g=4*f,h="<div class='status info'> <h2>Your maximum bond loan is… <strong> "+e(g)+" </strong></h2> <p>…based on a total gross weekly income of $"+d+" and a maximum weekly rent of "+e(f)+" </p>. </div>";a(this).prepend(h)}})}(jQuery);
